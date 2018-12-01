@@ -1,0 +1,35 @@
+{
+  "name": "best-driver",
+  "version": "0.1.0",
+  "description": "An operator's solution in finding and reaching out to the best driver using chronical ride logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine --config=spec/config/jasmine.json",
+    "db": "node ./scripts/db.js",
+    "score": "node ./scripts/score.js"
+  },
+  "keywords": [
+    "gogograndparents",
+    "driver",
+    "lift",
+    "uber",
+    "operator",
+    "schedule",
+    "ride"
+  ],
+  "author": "Zixing Liu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "openrecord": "^2.7.3",
+    "papaparse": "^4.6.2",
+    "readline": "^1.3.0",
+    "sqlite": "^3.0.0",
+    "sqlite3": "^4.0.4",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.3.0"
+  }
+}
